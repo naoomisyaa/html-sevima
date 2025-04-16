@@ -1,0 +1,248 @@
+*{
+    margin: 15px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+
+nav{  
+    justify-content: space-between;
+    display: flex;
+}
+
+nav h1{
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black; 
+}
+
+nav li a:hover{
+    color: #4B6742; 
+}
+
+#hero{
+    text-align: center;
+    position: relative;
+}
+
+#hero img{
+    border-radius: 25px;
+   display: inline-block;
+}
+
+#hero h1{
+    font-weight: bold;
+    color: white;
+    bottom: 100px;
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+}
+
+#abt-us{
+    position: relative;
+    display: inline;
+}
+
+.abt-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 50px 0;
+    flex-wrap: wrap;
+  }
+  
+  .left-col {
+    flex: 1;
+  }
+
+  .event-img{
+    border: 2px;
+    border-color: #4B6742;
+  }
+  
+  .event-img img {
+    width: 100%;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .org {
+    background-color: #4B6742;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 460px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  .org h1{
+    font-weight: bold;
+  }
+  
+  .image-row {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+  }
+  
+  .image-row img {
+    border-radius: 15px;
+    width: 175px;
+  }
+
+  .rate-row{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .rate-row h5{
+    color: #4B6742;
+  }
+
+  .rate-row h1{
+    font-weight: bold;
+    font-size: 70px;
+  }
+
+  #services{
+    margin-top: 50px;
+  }
+
+  #services h1{
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .green{
+    font-weight: bold;
+    color: #4B6742;
+  }
+
+  .tittle-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .tittle-row p{
+    font-weight: 300;
+    font-size: 20px;
+    width: 700px;
+
+  }
+
+  .tittle-row h4{
+    text-align: right;
+    font-size: 20px;
+  }
+
+  .tittle-row h4 a{
+    text-decoration: none;
+    color: #4B6742;
+  }
+
+  .tittle-row{
+    display: flex;
+  }
+
+  .first-row{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .first-row img{
+    width: 250px;
+  }
+
+  .sec-row{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+  }
+
+  .sec-row img{
+    width: 250px;
+  }
+
+  #client{
+    margin-top: 70px;
+  }
+  
+  #client h1{
+        font-weight: bold;
+        font-size: 35px;
+  }
+  
+  footer {
+    background-color: #4B6742;
+    width: 100vw;
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  footer h1{
+    font-weight: 600;
+    font-size: 40px
+  }
+  
+  footer h4{
+    font-weight: 300;
+    font-size: 17px;
+  }
+
+  .footer-row{
+    display: flex;
+  }
+
+  .kanan li{
+    list-style-type: none;
+    display: inline-flex; 
+    width: 500px;
+    margin-bottom: 0;
+  }
+
+  .kanan li p{
+    margin-top: 20px;
+    font-weight: 300;
+  }
+  
